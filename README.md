@@ -10,8 +10,8 @@ docker build -t mi-cv-vilela-imagen .
 ![Descripción de la imagen](images/3.png)
 ### 3. Docker Hub
 ```sh
-docker tag mi-cv-vilela-imagen <tu-usuario-docker>/mi-cv-vilela-imagen
-docker push <tu-usuario-docker>/mi-cv-vilela-imagen
+docker tag mi-cv-vilela-imagen renevc/mi-cv-vilela-imagen
+docker push renevc/mi-cv-vilela-imagen
 ```
 ![Descripción de la imagen](images/4.png)
 ![Descripción de la imagen](images/5.png)
@@ -35,16 +35,6 @@ docker ps
 ```sh
 docker-compose down
 ```
-
-## Agregar Imágenes al README
-Si deseas agregar imágenes al `README.md`, colócalas en una carpeta llamada `images` y usa la siguiente sintaxis:
-
-```markdown
-![Descripción de la imagen](images/ejemplo.png)
-```
-
-Ejemplo:
-![Vista previa de la página](images/preview.png)
 
 ## Notas
 - Si realizas cambios en `index.html`, recuerda reconstruir y volver a subir la imagen a Docker Hub.
