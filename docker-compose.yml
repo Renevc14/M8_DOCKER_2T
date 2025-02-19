@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: renevc/mi-cv-vilela-imagen
+    ports:
+      - "8585:80"
+    restart: always
